@@ -29,5 +29,6 @@ function inputgetc() {
 function calc() {
     var userinp = document.querySelector('.dis').value;
     var res = eval(userinp);
+    console.log(eval(userinp));
     document.querySelector('.dis').value = res;
 }
