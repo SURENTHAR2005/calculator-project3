@@ -19,7 +19,7 @@
 // });
 
 function inputget(val) {
-    document.querySelector('.dis').value = val + document.querySelector('.dis').value;
+    document.querySelector('.dis').value = document.querySelector('.dis').value+val;
 }
 
 function inputgetc() {
